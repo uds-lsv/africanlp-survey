@@ -6,7 +6,7 @@ import json
 from tqdm import tqdm  # Import tqdm for the progress bar
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 def chunk_list(lst, n):
     """Yield successive n-sized chunks from lst."""
